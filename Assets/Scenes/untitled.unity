@@ -165,12 +165,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
-  m_JumpPower: 12
+  m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: .200000003
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: .100000001
+  m_GroundCheckDistance: .300000012
 --- !u!136 &690334896
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -478,7 +478,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 186dc9b2993eaa54aa4aae830b239891, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 849929335d411e54ab119b64f41c5085, type: 2}
+      objectReference: {fileID: 9100000, guid: ec50ad51a358ed04a9ec1d07ed17acd6, type: 2}
     - target: {fileID: 100076, guid: 186dc9b2993eaa54aa4aae830b239891, type: 3}
       propertyPath: m_Name
       value: Boy
