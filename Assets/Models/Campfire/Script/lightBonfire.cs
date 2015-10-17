@@ -27,7 +27,7 @@ public class lightBonfire : MonoBehaviour {
 
     void OnCollisionStay(Collision collision)
     {
-        if (!bonfire_status)
+        if (!bonfire_status && collision.transform.name == "Boy")
         {
             text_light_bonfire.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
